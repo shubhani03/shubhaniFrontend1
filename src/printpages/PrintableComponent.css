@@ -1,0 +1,15 @@
+.printable {
+  width: 21cm; /* A4 width */
+  height: 29.7cm; /* A4 height */
+  margin: 0 auto;
+  padding: 1cm;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  .printable {
+    margin: 0;
+    box-shadow: none;
+  }
+}
